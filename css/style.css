@@ -1,0 +1,31 @@
+/*ID STYLES*/
+
+/*CLASS STYLES*/
+.container {
+	border: 3px solid green;
+	margin: auto;
+	width: 80%;
+	padding: 50px 30px;
+}
+
+.box1 {
+	float: left;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 30px 30px;
+}
+
+.box2 {
+}
+
+.box3 {
+	background: url(../images/frame.png);
+	background-size: 100%;
+	margin: auto;
+	padding: 10px 30px;
+}
+
+
+
+/*ELEMENT STYLES*/
+
