@@ -4,6 +4,14 @@
 	padding: 0 3px;
 }
 
+#apple {
+	margin-right: 10px;
+}
+
+#droid {
+	margin-left: 10px;
+}
+
 /*CLASS STYLES*/
 .container {
 	border: 3px solid green;
@@ -48,7 +56,7 @@
 
 .cpyrght {
 	display: inline;
-	font-size: 20px;
+	font-size: 10px;
 }
 
 .login {
@@ -73,6 +81,10 @@ body {
 
 footer {
 	text-align: center;
+	margin-top: 20px;
 }
 
+a{
+	padding: 0 8px;
+}
 
