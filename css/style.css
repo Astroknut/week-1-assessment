@@ -1,7 +1,7 @@
 /*ID STYLES*/
 
 #home {
-	padding: 0 3px;
+	padding: 5px 5px 0 0;
 }
 
 #apple {
@@ -10,6 +10,12 @@
 
 #droid {
 	margin-left: 10px;
+}
+
+#loginTxt {
+	position: relative;
+	top: -5px;
+	display: inline-block;
 }
 
 /*CLASS STYLES*/
@@ -40,7 +46,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin: 0 auto;
-	border-radius:18px;
+	border-radius:19px;
 	padding: 10px 30px;
 	height: 320px;
 	display: inline-block;
@@ -64,21 +70,17 @@
 }
 
 .login {
-	background: #4D87A4;
+	background: #4885A7;
 	width: 100px;
 	font-family: "helvetica";
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: bold;
 	color: #F0F4F6;
 	border: 1px solid;
 	border-color: #3f729b;
 	text-align: center;
-	padding: 5px;
+	margin: 0 auto;
 	
-}
-
-.home {
-	padding-top: 20px 20px 0 10px;
 }
 
 .bold {
@@ -91,28 +93,32 @@
 	left: 50px;
 	bottom: 30px;
 	border: 1px solid #356083;
-	border-radius: 2px;
+	border-radius: 3px;
+}
+
+.footList {
+	display: inline;
 }
 
 /*ELEMENT STYLES*/
 body {
 	height: 100%;
 	margin: 0;
-	background-image: repeating-linear-gradient(#3f729b, #3f729b 33%, #F0F4F6 33.2%, #F0F4F6 100%);
+	background: repeating-linear-gradient(#3f729b, #3f729b 33%, #F0F4F6 33.2%, #F0F4F6 100%);
 	background-size: cover;
 	background-repeat: no-repeat;	
 }
 
 h1 {
-	color: #163186;
+	color: #2A4186;
 	font-weight: 600;
-	font-size: 25px;
+	font-size: 23px;
+	margin: 30px auto;
 
 }
 
 footer {
 	text-align: center;
-	margin: 0 auto;
 }
 
 a{
@@ -124,5 +130,9 @@ a{
 	font-weight: bold;
 	font-family: "helvetica";
 	font-size: 12px;
+}
+
+p{
+	font-weight: 300;
 }
 
