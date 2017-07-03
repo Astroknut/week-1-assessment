@@ -1,5 +1,5 @@
 /*RESPONSIVE DESIGN*/
-@media (max-width: 1047px) {
+@media (max-device-width: 1047px) {
 	#phones {
 		display: none;
 	}
@@ -129,9 +129,9 @@ body {
 h1 {
 	color: #2A4186;
 	font-weight: 600;
-	font-size: 23px;
+	font-size: 25px;
 	margin: 30px auto;
-
+	font-weight: 600 ;
 }
 
 footer {
@@ -146,7 +146,7 @@ a{
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: "Hind Vadodara";
-	font-size: 12px;
+	font-size: 13px;
 }
 
 p{
