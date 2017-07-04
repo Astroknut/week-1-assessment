@@ -13,11 +13,13 @@
 }
 
 #loginTxt {
+	/*Adjust login button text for proper spacing*/
 	position: relative;
 	top: -5px;
 	display: inline-block;
 }
 
+/*Responsive design photo changes*/
 #phones2 {
 	display: none;
 }
@@ -28,12 +30,14 @@
 
 /*CLASS STYLES*/
 .container {
+	/*centers content container*/
 	margin: auto;
 	width: 80%;
 	padding: 50px 30px;
 }
 
 .box1 {
+	/*Position/structure phones image*/
 	float:left;
 	display: inline-block;
 	margin: 0 auto;
@@ -43,12 +47,14 @@
 }
 
 .box2 {
+	/*Position/structure brand logo*/
 	display: inline-block;
 	margin: 0 auto;
 	
 }
 
 .box3 {
+	/*Position/structure text content*/
 	background: url(../images/frame.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -63,6 +69,7 @@
 }
 
 .box4 {
+	/*Position/structure app store logos*/
 	display: inline-block;
 	margin: 0 auto;
 	text-align: center;
@@ -72,12 +79,14 @@
 }
 
 .cpyrght {
+	/*display for copyright logo*/
 	display: inline;
 	font-size: 10px;
 	color: gray;
 }
 
 .login {
+	/*Display of login button*/
 	background: #4885A7;
 	width: 100px;
 	font-family: "Hind Vadodara";
@@ -96,6 +105,7 @@
 }
 
 .button {
+	/*Shape/posiiton login button*/
 	display: inline-block;
 	position: relative;
 	left: 50px;
@@ -105,11 +115,13 @@
 }
 
 .footList {
+	/*Keeps foots ul on one line*/
 	display: inline;
 }
 
 /*ELEMENT STYLES*/
 body {
+	/*Creates background color gradient*/
 	height: 100%;
 	margin: 0;
 	background: repeating-linear-gradient(#3f729b, #3f729b 33%, #F0F4F6 33.2%, #F0F4F6 100%);
@@ -118,6 +130,7 @@ body {
 }
 
 h1 {
+	/*Creates header style for text content*/
 	color: #2A4186;
 	font-weight: 600;
 	font-size: 25px;
@@ -130,6 +143,7 @@ footer {
 }
 
 a{
+	/*style footer list items*/
 	margin: 0 auto;
 	padding: 0 10px;
 	text-decoration: none;
@@ -140,7 +154,8 @@ a{
 	font-size: 13px;
 }
 
-p{
+p{ 
+/*decrease boldness of font*/
 	font-weight: 300;
 }
 
